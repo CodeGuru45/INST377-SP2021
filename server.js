@@ -1,6 +1,4 @@
-// These are our required libraries to make the server work.
-/* eslint-disable no-console */
-/* eslint-disable no-unused-vars */
+
 import path from 'path';
 import express from 'express';
 import dotenv from 'dotenv';
@@ -43,7 +41,8 @@ app.route('/api')
     console.log('POST request detected');
     console.log('Form data in res.body', req.body);
     console.log('Now send something back to your client');
-    // res.json({data: dataToSendToFrontEnd});
+    res.contentType("text/plain")
+    res.send('Hello World');
   });
 
 app.listen(port, async () => {
