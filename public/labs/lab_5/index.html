@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Theodore Tasker W7</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+</head>
+<body>
+    <h1 class="ml-4">Theodore Tasker Lab 5</h1>
+    <div class="columns">
+        <div class="column is-4 ml-4">
+            <form class="userform">
+                <label for="search_value">Search</label>
+                <input class="input is-info is-small" id="search_value" style="width: 400px;" type="text" placeholder="Search" name="search_input">
+                <button class="button is-info is-small" type="submit">Submit</button>
+            </form>
+            <ul class='target-list'></ul>
+        </div>
+        <div class="column">
+            <div id="mapid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

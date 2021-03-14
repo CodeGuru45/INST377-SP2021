@@ -1,0 +1,34 @@
+#mapid { 
+    height: 300px; width: 350px; 
+}
+
+.target-list {
+    margin: 0;
+    padding: 0px;
+    position: relative;
+  }
+  
+  .target-list li {
+    background: rgb(247, 202, 166);
+    border-bottom: 1px solid #eb9b9b;
+    margin: 0;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    width: 400px;
+  }
+
+  span.name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    display: block;
+  }
+
+  span.address {
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+  }
+
+  h1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
